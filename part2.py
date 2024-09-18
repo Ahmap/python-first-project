@@ -1,23 +1,14 @@
-# s1 = input("enter a string1: ")
-# s2 = input("enter a string2: ")
-# print(s1 in s2)
+# Uni code of character
 
-# ---------------------------------
-#
-# s = input("enter something: ")
-# print(s.replace(" ", "").replace("\t", ""))
+# Character = input("Enter your character: ")
+# print(ord(Character))
 
-# ---------------------------------
+# Check the phone number
 
-# ch = input("enter your char: ")
-# print(ord(ch))
+# Phone = input("Enter your number: ")
+# print(Phone.isnumeric())
 
-# ---------------------------------
-
-# tel = input("enter your number: ")
-# print(tel.isnumeric())
-
-# ---------------------------------
+# 
 
 s = input("enter a string: ")
 sentences = s.count(".") + s.count("?") + s.count("!") + s.count(";")
